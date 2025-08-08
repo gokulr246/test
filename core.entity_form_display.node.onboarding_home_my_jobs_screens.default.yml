@@ -1,0 +1,5308 @@
+uuid: ec925ff8-7cb2-49e8-bdd0-9ff1e87affa1
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.field.node.onboarding_home_my_jobs_screens.field_are_you_looking_for_a_new
+    - field.field.node.onboarding_home_my_jobs_screens.field_back_en
+    - field.field.node.onboarding_home_my_jobs_screens.field_back_ms
+    - field.field.node.onboarding_home_my_jobs_screens.field_biometric_authentication_m
+    - field.field.node.onboarding_home_my_jobs_screens.field_bm_date
+    - field.field.node.onboarding_home_my_jobs_screens.field_confirm_en
+    - field.field.node.onboarding_home_my_jobs_screens.field_confirm_ms
+    - field.field.node.onboarding_home_my_jobs_screens.field_date
+    - field.field.node.onboarding_home_my_jobs_screens.field_employment_status_en
+    - field.field.node.onboarding_home_my_jobs_screens.field_employment_status_ms
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_about_to_confirm_accept
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_about_to_confirm_your_a
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_accept_this_job_intervi
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_accept_this_job_offer
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_been_requested_to_repor
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_biometric_authenticatio
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_can_t_find_the_skills_y
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_can_t_make_it
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_confirm_acceptance_for
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_date
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_e_g_perform_market_rese
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_e_g_sales_manager
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_education_level
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_employment_status
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_employment_status_input
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_enable_locations
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_enter_your_motivation_f
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_field_of_study
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_find_jobs_now
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_hello
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_here_are_some_suggested
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_here_is_your_start_date
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_highlighted_post
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_home
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_i_have_experience_with
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_if_you_choose_no_your_p
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_job_applied
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_job_interview_invitatio
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_job_offers
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_kindly_update_your_empl
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_let_s_explore
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_let_s_get_started
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_location_access_require
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_match_jobs_number_of_re
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_more
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_my_jobs
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_nearby_jobs_number_of_r
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_new_highlighted_post_av
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_no_application
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_no_saved_jobs
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_not_shortlisted
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_please_key_in_and_selec
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_please_specify_a_reason
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_preferred_occupation
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_profile
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_reject
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_reject_this_job_intervi
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_reject_this_job_offer
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_rejected_this_job_offer
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_related_skills
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_reschedule
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_select_education_level
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_select_employment_statu
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_select_field_of_study
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_select_one
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_select_preferred_occupa
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_show_less
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_show_more
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_sorry
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_specify_a_reason_for_re
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_specify_your_reason_her
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_start_your_job_search
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_start_your_journey
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_there_is_no_job_applica
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_this_job_is_no_longer_a
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_time
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_to_reschedule_this_inte
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_venue
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_view_post
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_we_need_your_location_t
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_we_want_to_help_you_fin
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_welcome_to_myfuturejobs
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_yes
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_you_have_been_invited_t
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_you_have_been_offered_a
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_you_have_not_been_short
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_you_have_rejected_this
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_you_re_about_to_reject
+    - field.field.node.onboarding_home_my_jobs_screens.field_en_your_job_opportunities
+    - field.field.node.onboarding_home_my_jobs_screens.field_eng_show_less
+    - field.field.node.onboarding_home_my_jobs_screens.field_eng_show_more
+    - field.field.node.onboarding_home_my_jobs_screens.field_eng_time
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_accept
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_accepted_job_inter
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_active
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_activities
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_biometric_authenti
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_biometric_setup_re
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_cancel
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_cancel_button
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_copied
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_days_ago
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_find_jobs_now
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_getting_started
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_go_to_profile
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_if_you_choose_no_y
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_inactive
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_job_applied
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_job_interview_acce
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_job_interview_invi
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_job_interview_reje
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_job_offer_accepted
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_job_offer_received
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_job_offer_rejected
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_logout
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_logout_button
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_make_sure_your_spe
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_match_jobs
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_my_applications
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_my_applications_nu
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_my_jobs
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_no
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_no_longer_acceptin
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_not_shortlisted
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_preferred_occupati
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_related_skill_is_r
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_save_and_next
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_saved_jobs_number
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_screen_rm
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_search_match_jobs
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_search_my_applicat
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_search_saved_jobs
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_select_one_employm
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_select_one_input_p
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_settings
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_show_less_jobs
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_show_more_jobs
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_skip_for_now
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_there_is_no_saved
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_use_full_words_ins
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_venue
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_view_profile
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_we_can_t_find_any
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_yes
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_yes_radio_button
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_you_applied_this_j
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_you_can_use_your_b
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_you_have_accepted
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_you_have_selected
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_you_re_about_to_co
+    - field.field.node.onboarding_home_my_jobs_screens.field_mal_show_less
+    - field.field.node.onboarding_home_my_jobs_screens.field_mal_show_more
+    - field.field.node.onboarding_home_my_jobs_screens.field_mal_time
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_accept
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_accepted_job_intervi
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_active
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_activities
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_are_you_looking_for
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_biometric_authentica
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_biometric_setup_requ
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_cancel
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_cancel_button
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_copied
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_days_ago
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_find_jobs_now
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_getting_started
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_go_to_profile
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_if_you_choose_no_you
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_inactive
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_job_applied
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_job_interview_accept
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_job_interview_invita
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_job_interview_reject
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_job_offer_accepted
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_job_offer_received
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_job_offer_rejected
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_logout
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_logout_button
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_make_sure_your_spell
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_match_jobs
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_my_applications
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_my_applications_numb
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_my_jobs
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_no
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_no_longer_accepting
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_not_shortlisted
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_preferred_occupation
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_related_skill_is_req
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_rm
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_save_and_next
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_saved_jobs_number_of
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_search_match_jobs
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_search_my_applicatio
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_search_saved_jobs
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_select_one_employmen
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_select_one_input_pla
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_settings
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_show_less_job
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_show_more_jobs
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_skip_for_now
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_there_is_no_saved_jo
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_use_full_words_inste
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_venue
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_view_profile
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_we_can_t_find_any_jo
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_yes
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_yes_radio_button
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_you_applied_this_job
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_you_can_use_your_bio
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_you_have_accepted_th
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_you_have_not_been_sh
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_you_have_selected_co
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_you_re_about_to_conf
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_about_to_confirm_accept
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_about_to_confirm_your_a
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_accept_this_job_intervi
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_accept_this_job_offer
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_been_requested_to_repor
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_can_t_find_the_skills_y
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_can_t_make_it
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_confirm_acceptance_for
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_date
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_e_g_perform_market_rese
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_e_g_sales_manager
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_education_level
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_employment_status
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_employment_status_input
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_enable_locations
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_enter_your_motivation_f
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_field_of_study
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_find_jobs_now
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_hello
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_here_are_some_suggested
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_here_is_your_start_date
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_highlighted_post
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_home
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_i_have_experience_with
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_if_you_choose_no_your_p
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_job_applied
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_job_interview_invitatio
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_job_offers
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_kindly_update_your_empl
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_let_s_explore
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_let_s_get_started
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_location_access_require
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_match_jobs_number_of_re
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_more
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_my_jobs
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_nearby_jobs_number_of_r
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_new_highlighted_post_av
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_no_application
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_no_saved_jobs
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_not_shortlisted
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_please_key_in_and_selec
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_please_specify_a_reason
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_preferred_occupation
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_profile
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_reject
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_reject_this_job_intervi
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_reject_this_job_offer
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_rejected_this_job_offer
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_related_skills
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_reschedule
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_select_education_level
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_select_employment_statu
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_select_field_of_study
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_select_preferred_occupa
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_show_less
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_show_more
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_sorry
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_specify_a_reason_for_re
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_specify_your_reason_her
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_start_your_job_search
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_start_your_journey
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_there_is_no_job_applica
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_this_job_is_no_longer_a
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_time
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_to_reschedule_this_inte
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_venue
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_view_post
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_we_need_your_location_t
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_we_want_to_help_you_fin
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_welcome_to_myfuturejobs
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_yes
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_you_have_been_invited_t
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_you_have_been_offered_a
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_you_have_rejected_this
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_you_re_about_to_reject
+    - field.field.node.onboarding_home_my_jobs_screens.field_ms_your_job_opportunities
+    - field.field.node.onboarding_home_my_jobs_screens.field_select_one_ms
+    - node.type.onboarding_home_my_jobs_screens
+    - workflows.workflow.editorial
+  module:
+    - content_moderation
+    - field_group
+    - path
+    - text
+third_party_settings:
+  field_group:
+    group_welcome_to_myfuturejobs:
+      children:
+        - field_en_welcome_to_myfuturejobs
+        - field_ms_welcome_to_myfuturejobs
+      label: 'Welcome to MYFutureJobs'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 74
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_we_want_to_help_you_find_y:
+      children:
+        - field_en_we_want_to_help_you_fin
+        - field_ms_we_want_to_help_you_fin
+      label: 'We want to help you find your ideal job. Let’s customise your journey and discover roles that align with your preferences!'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 75
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_let_s_get_started:
+      children:
+        - field_en_let_s_get_started
+        - field_ms_let_s_get_started
+      label: 'Let’s Get Started'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 76
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_select_preferred_occupatio:
+      children:
+        - field_en_select_preferred_occupa
+        - field_ms_select_preferred_occupa
+      label: 'Select Preferred Occupation'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 77
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_preferred_occupation:
+      children:
+        - field_en_preferred_occupation
+        - field_ms_preferred_occupation
+      label: 'Preferred Occupation*'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 78
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_e_g_sales_manager:
+      children:
+        - field_en_e_g_sales_manager
+        - field_ms_e_g_sales_manager
+      label: 'E.g. Sales Manager'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 79
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_i_have_experience_with_thi:
+      children:
+        - field_en_i_have_experience_with
+        - field_ms_i_have_experience_with
+      label: 'I have experience with this job (Optional)'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 80
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_related_skills:
+      children:
+        - field_en_related_skills
+        - field_ms_related_skills
+      label: 'Related Skills*'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 81
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_e_g_perform_market_researc:
+      children:
+        - field_en_e_g_perform_market_rese
+        - field_ms_e_g_perform_market_rese
+      label: 'E.g. Perform market research'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 82
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_can_t_find_the_skills_you:
+      children:
+        - field_en_can_t_find_the_skills_y
+        - field_ms_can_t_find_the_skills_y
+      label: "Can't find the skills you're looking for? You can manually enter any skills you have to improve your job matches."
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 83
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_here_are_some_suggested_sk:
+      children:
+        - field_en_here_are_some_suggested
+        - field_ms_here_are_some_suggested
+      label: 'Here are some suggested skills based on your selected occupation:'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 84
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_onboarding_screen:
+      children:
+        - group_welcome_to_myfuturejobs
+        - group_we_want_to_help_you_find_y
+        - group_let_s_get_started
+        - group_select_preferred_occupatio
+        - group_preferred_occupation
+        - group_e_g_sales_manager
+        - group_i_have_experience_with_thi
+        - group_related_skills
+        - group_e_g_perform_market_researc
+        - group_can_t_find_the_skills_you
+        - group_here_are_some_suggested_sk
+        - group_show_more
+        - group_show_less
+        - group_education_level
+        - group_select_education_level
+        - group_field_of_study
+        - group_select_field_of_study
+        - group_select_employment_status
+        - group_employment_status
+        - group_start_your_journey
+        - group_back
+        - group_preferred_occupation_is_re
+        - group_related_skill_is_required
+        - group_please_key_in_and_select_t
+        - group_you_have_selected_counts_s
+        - group_getting_started
+        - group_save_and_next
+        - group_select_one_input_placehold
+        - group_if_you_choose_no_your_prof
+        - group_logout
+      label: 'Onboarding Screen'
+      region: content
+      parent_name: ''
+      weight: 9
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        open: false
+        description: ''
+        required_fields: true
+    group_show_more:
+      children:
+        - field_en_show_more
+        - field_ms_show_more
+      label: 'Show More'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 85
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_show_less:
+      children:
+        - field_en_show_less
+        - field_ms_show_less
+      label: 'Show Less'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 86
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_education_level:
+      children:
+        - field_en_education_level
+        - field_ms_education_level
+      label: 'Education Level*'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 87
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_select_education_level:
+      children:
+        - field_en_select_education_level
+        - field_ms_select_education_level
+      label: 'Select education level'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 88
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_field_of_study:
+      children:
+        - field_en_field_of_study
+        - field_ms_field_of_study
+      label: 'Field of Study*'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 89
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_select_field_of_study:
+      children:
+        - field_en_select_field_of_study
+        - field_ms_select_field_of_study
+      label: 'Select field of study'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 90
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_select_employment_status:
+      children:
+        - field_en_select_employment_statu
+        - field_ms_select_employment_statu
+      label: 'Select Employment Status'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 91
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_employment_status:
+      children:
+        - field_en_employment_status
+        - field_ms_employment_status
+      label: 'Employment Status*'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 92
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_start_your_journey:
+      children:
+        - field_en_start_your_journey
+        - field_ms_start_your_journey
+      label: 'Start Your Journey'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 93
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_back:
+      children:
+        - field_back_en
+        - field_back_ms
+      label: Back
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 94
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_start_your_job_search:
+      children:
+        - field_en_start_your_job_search
+        - field_ms_start_your_job_search
+      label: 'Start your job search'
+      region: content
+      parent_name: group_home_screen
+      weight: 106
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_new_highlighted_post_avail:
+      children:
+        - field_en_new_highlighted_post_av
+        - field_ms_new_highlighted_post_av
+      label: 'New highlighted post available'
+      region: content
+      parent_name: group_home_screen
+      weight: 107
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_view_post:
+      children:
+        - field_en_view_post
+        - field_ms_view_post
+      label: 'View Post'
+      region: content
+      parent_name: group_home_screen
+      weight: 108
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_highlighted_post:
+      children:
+        - field_en_highlighted_post
+        - field_ms_highlighted_post
+      label: 'Highlighted Post'
+      region: content
+      parent_name: group_home_screen
+      weight: 109
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_job_interview_invitation:
+      children:
+        - field_en_job_interview_invitatio
+        - field_ms_job_interview_invitatio
+      label: 'Job Interview Invitation'
+      region: content
+      parent_name: group_home_screen
+      weight: 110
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_job_offers:
+      children:
+        - field_en_job_offers
+        - field_ms_job_offers
+      label: 'Job Offers'
+      region: content
+      parent_name: group_home_screen
+      weight: 111
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_not_shortlisted:
+      children:
+        - field_en_not_shortlisted
+        - field_ms_not_shortlisted
+      label: 'Not Shortlisted'
+      region: content
+      parent_name: group_home_screen
+      weight: 112
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_match_jobs_number_of_resul:
+      children:
+        - field_en_match_jobs_number_of_re
+        - field_ms_match_jobs_number_of_re
+      label: 'Match Jobs <Number of results> All Jobs <Number of results>'
+      region: content
+      parent_name: group_home_screen
+      weight: 113
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_nearby_jobs_number_of_resu:
+      children:
+        - field_en_nearby_jobs_number_of_r
+        - field_ms_nearby_jobs_number_of_r
+      label: 'Nearby Jobs <Number of results>'
+      region: content
+      parent_name: group_home_screen
+      weight: 114
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_location_access_required:
+      children:
+        - field_en_location_access_require
+        - field_ms_location_access_require
+      label: 'Location Access Required'
+      region: content
+      parent_name: group_home_screen
+      weight: 115
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_we_need_your_location_to_s:
+      children:
+        - field_en_we_need_your_location_t
+        - field_ms_we_need_your_location_t
+      label: 'We need your location to show nearby jobs. Please enable location services in your phone settings to continue.'
+      region: content
+      parent_name: group_home_screen
+      weight: 116
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_enable_locations:
+      children:
+        - field_en_enable_locations
+        - field_ms_enable_locations
+      label: 'Enable Locations'
+      region: content
+      parent_name: group_home_screen
+      weight: 117
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_home:
+      children:
+        - field_en_home
+        - field_ms_home
+      label: Home
+      region: content
+      parent_name: group_home_screen
+      weight: 118
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_my_jobs:
+      children:
+        - field_en_my_jobs
+        - field_ms_my_jobs
+      label: 'My Jobs'
+      region: content
+      parent_name: group_home_screen
+      weight: 119
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_profile:
+      children:
+        - field_en_profile
+        - field_ms_profile
+      label: Profile
+      region: content
+      parent_name: group_home_screen
+      weight: 120
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_more:
+      children:
+        - field_en_more
+        - field_ms_more
+      label: More
+      region: content
+      parent_name: group_home_screen
+      weight: 121
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_home_screen:
+      children:
+        - group_start_your_job_search
+        - group_new_highlighted_post_avail
+        - group_view_post
+        - group_highlighted_post
+        - group_job_interview_invitation
+        - group_job_offers
+        - group_not_shortlisted
+        - group_match_jobs_number_of_resul
+        - group_nearby_jobs_number_of_resu
+        - group_location_access_required
+        - group_we_need_your_location_to_s
+        - group_enable_locations
+        - group_home
+        - group_my_jobs
+        - group_profile
+        - group_more
+        - group_kindly_update_your_employm
+        - group_text_are_you_looking_for_a
+        - group_text_yes
+        - group_text_no
+        - group_text_confirm
+        - group_today
+        - group_days_ago
+        - group_biometric_authentication_i
+        - group_biometric_setup_required
+        - group_biometric_authentication
+        - group_view_profile
+        - group_activities
+        - group_text_job_applied
+        - group_you_can_use_your_biometric
+        - group_yes
+        - group_skip_for_now
+        - group_settings
+        - group_employment_status_input_la
+        - group_logout_button
+        - group_employment_status_home_inp
+        - group_yes_radio_button
+        - group_information_text_malay_if
+        - group_cancel
+        - group_select_one_employment_stat
+        - group_select_one
+      label: 'Home Screen'
+      region: content
+      parent_name: ''
+      weight: 10
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        open: false
+        description: ''
+        required_fields: true
+    group_kindly_update_your_employm:
+      children:
+        - field_en_kindly_update_your_empl
+        - field_ms_kindly_update_your_empl
+      label: 'Kindly update your employment status. Your employment status will help you to get job opportunities that matches your profile.'
+      region: content
+      parent_name: group_home_screen
+      weight: 122
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_text_are_you_looking_for_a:
+      children:
+        - field_are_you_looking_for_a_new
+        - field_malay_are_you_looking_for
+      label: 'Are you looking for a new job?*'
+      region: content
+      parent_name: group_home_screen
+      weight: 123
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_text_yes:
+      children:
+        - field_english_yes
+        - field_malay_yes
+      label: 'Yes'
+      region: content
+      parent_name: group_home_screen
+      weight: 124
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_text_no:
+      children:
+        - field_english_no
+        - field_malay_no
+      label: 'No'
+      region: content
+      parent_name: group_home_screen
+      weight: 125
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_text_confirm:
+      children:
+        - field_confirm_en
+        - field_confirm_ms
+      label: Confirm
+      region: content
+      parent_name: group_home_screen
+      weight: 126
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_my_jobs_screen:
+      children:
+        - group_text_saved_jobs_number_of
+        - group_my_applications_number_of
+        - group_sorry
+        - group_we_can_t_find_any_jobs_tha
+        - group_no_saved_jobs
+        - group_find_jobs_now
+        - group_no_application
+        - group_there_is_no_job_applicatio
+        - group_text_find_jobs_now
+        - group_this_job_is_no_longer_acce
+        - group_text_you_applied_this_job
+        - group_you_have_been_invited_to_a
+        - group_reject_this_job_interview
+        - group_you_re_about_to_reject_thi
+        - group_please_specify_a_reason_fo
+        - group_specify_your_reason_here
+        - group_reject
+        - group_you_have_rejected_this_job
+        - group_accept_this_job_interview
+        - group_accept
+        - group_reschedule
+        - group_to_reschedule_this_intervi
+        - group_you_have_been_offered_a_jo
+        - group_accept_this_job_offer
+        - group_you_have_accepted_this_job
+        - group_you_have_not_been_shortlis
+        - group_rejected_this_job_offer
+        - group_reject_this_job_offer
+        - group_specify_a_reason_for_rejec
+        - group_about_to_confirm_accept_a
+        - group_confirm_acceptance_for_the
+        - group_requested_to_report_for_du
+        - group_can_t_make_it
+        - group_about_to_confirm_your_atte
+        - group_here_is_your_start_date
+        - group_hello
+        - group_let_s_explore
+        - group_your_job_opportunities
+        - group_enter_your_motivation_for
+        - group_date
+        - group_time
+        - group_venue
+        - group_make_sure_your_spelling_is
+        - group_use_full_words_instead_of
+        - group_my_applications
+        - group_job_applied
+        - group_job_interview_accepted
+        - group_job_offer_received
+        - group_job_interview_invitation_p
+        - group_job_offer_rejected
+        - group_text_not_shortlisted
+        - group_no_longer_accepting_applic
+        - group_job_offer_accepted
+        - group_job_interview_rejected
+        - group_active
+        - group_inactive
+        - group_show_more_text
+        - group_show_less_text
+        - group_rm
+        - group_copied
+        - group_accepted_job_interview
+        - group_my_jobs_header
+        - group_match_jobs
+        - group_open_position_s_job_vacanc
+        - group_search_saved_jobs
+        - group_search_my_applications
+        - group_go_to_profile
+        - group_there_is_no_saved_jobs_at
+        - group_text_date
+        - group_text_time
+        - group_text_venue
+        - group_cancel_button
+        - group_you_re_about_to_confirm_yo
+        - group_text_show_more
+        - group_text_show_less
+      label: 'My Jobs Screen'
+      region: content
+      parent_name: ''
+      weight: 11
+      format_type: details
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        open: false
+        description: ''
+        required_fields: true
+    group_text_saved_jobs_number_of:
+      children:
+        - field_english_saved_jobs_number
+        - field_malay_saved_jobs_number_of
+      label: 'Saved Jobs <Number of results>'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 25
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_my_applications_number_of:
+      children:
+        - field_english_my_applications_nu
+        - field_malay_my_applications_numb
+      label: 'My Applications <Number of results> '
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 26
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_sorry:
+      children:
+        - field_en_sorry
+        - field_ms_sorry
+      label: Sorry!
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 27
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_we_can_t_find_any_jobs_tha:
+      children:
+        - field_english_we_can_t_find_any
+        - field_malay_we_can_t_find_any_jo
+      label: "We can't find any jobs that match your profile. Update it to boost your chances for a better opportunities!"
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 28
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_no_saved_jobs:
+      children:
+        - field_en_no_saved_jobs
+        - field_ms_no_saved_jobs
+      label: ' No Saved Jobs'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 29
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_find_jobs_now:
+      children:
+        - field_en_find_jobs_now
+        - field_ms_find_jobs_now
+      label: 'Find Jobs Now'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 30
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_no_application:
+      children:
+        - field_en_no_application
+        - field_ms_no_application
+      label: 'No Application'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 31
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_there_is_no_job_applicatio:
+      children:
+        - field_en_there_is_no_job_applica
+        - field_ms_there_is_no_job_applica
+      label: 'There is no job application at the moment. Start searching for jobs now!'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 32
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_text_find_jobs_now:
+      children:
+        - field_english_find_jobs_now
+        - field_malay_find_jobs_now
+      label: 'Find Jobs Now'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 33
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_this_job_is_no_longer_acce:
+      children:
+        - field_en_this_job_is_no_longer_a
+        - field_ms_this_job_is_no_longer_a
+      label: 'This job is no longer accepting applications.'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 34
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_you_have_been_invited_to_a:
+      children:
+        - field_en_you_have_been_invited_t
+        - field_ms_you_have_been_invited_t
+      label: "You have been invited to a job interview.  Date : <Interview Date> Time : <Interview Time>  Venue : <Venue>  Can't make it Resch"
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 36
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_reject_this_job_interview:
+      children:
+        - field_en_reject_this_job_intervi
+        - field_ms_reject_this_job_intervi
+      label: ' Reject this job interview?'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 37
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_you_re_about_to_reject_thi:
+      children:
+        - field_en_you_re_about_to_reject
+        - field_ms_you_re_about_to_reject
+      label: "You're about to reject this job interview."
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 38
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_please_specify_a_reason_fo:
+      children:
+        - field_en_please_specify_a_reason
+        - field_ms_please_specify_a_reason
+      label: 'Please specify a reason for rejecting this interview*'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 39
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_specify_your_reason_here:
+      children:
+        - field_en_specify_your_reason_her
+        - field_ms_specify_your_reason_her
+      label: 'Specify your reason here'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 40
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_reject:
+      children:
+        - field_en_reject
+        - field_ms_reject
+      label: Reject
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 41
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_you_have_rejected_this_job:
+      children:
+        - field_en_you_have_rejected_this
+        - field_ms_you_have_rejected_this
+      label: 'You have rejected this job interview.'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 42
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_accept_this_job_interview:
+      children:
+        - field_en_accept_this_job_intervi
+        - field_ms_accept_this_job_intervi
+      label: 'Accept this job interview?'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 43
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_accept:
+      children:
+        - field_english_accept
+        - field_malay_accept
+      label: Accept
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 44
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_text_you_applied_this_job:
+      children:
+        - field_english_you_applied_this_j
+        - field_malay_you_applied_this_job
+      label: 'Text You applied this job on <Applied Date> <File List'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 35
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_reschedule:
+      children:
+        - field_en_reschedule
+        - field_ms_reschedule
+      label: Reschedule
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 45
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_to_reschedule_this_intervi:
+      children:
+        - field_en_to_reschedule_this_inte
+        - field_ms_to_reschedule_this_inte
+      label: 'To reschedule this interview, please contact the employer directly using contact information below.'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 46
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_you_have_been_offered_a_jo:
+      children:
+        - field_en_you_have_been_offered_a
+        - field_ms_you_have_been_offered_a
+      label: 'You have been offered a job for this position.   You have been requested to report for duty. Please confirm acceptance for the o'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 47
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_accept_this_job_offer:
+      children:
+        - field_en_accept_this_job_offer
+        - field_ms_accept_this_job_offer
+      label: 'Accept this job offer?'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 48
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_you_have_accepted_this_job:
+      children:
+        - field_english_you_have_accepted
+        - field_malay_you_have_accepted_th
+      label: 'You have accepted this job offer.  Here is your start date: Date : <Job Offer Date> Time : <Job Offer Time>  Venue : <Job Offer '
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 49
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_you_have_not_been_shortlis:
+      children:
+        - field_en_you_have_not_been_short
+        - field_malay_you_have_not_been_sh
+      label: 'You have not been shortlisted by the employer.'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 50
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_rejected_this_job_offer:
+      children:
+        - field_en_rejected_this_job_offer
+        - field_ms_rejected_this_job_offer
+      label: 'rejected this job offer.'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 51
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_reject_this_job_offer:
+      children:
+        - field_en_reject_this_job_offer
+        - field_ms_reject_this_job_offer
+      label: 'Reject this Job Offer?'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 52
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_specify_a_reason_for_rejec:
+      children:
+        - field_en_specify_a_reason_for_re
+        - field_ms_specify_a_reason_for_re
+      label: 'specify a reason for rejecting this job offer.'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 53
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_about_to_confirm_accept_a:
+      children:
+        - field_en_about_to_confirm_accept
+        - field_ms_about_to_confirm_accept
+      label: 'about to confirm accept a job offer.'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 54
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_requested_to_report_for_du:
+      children:
+        - field_en_been_requested_to_repor
+        - field_ms_been_requested_to_repor
+      label: 'requested to report for duty.'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 56
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_confirm_acceptance_for_the:
+      children:
+        - field_en_confirm_acceptance_for
+        - field_ms_confirm_acceptance_for
+      label: 'confirm acceptance for the offer.'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 55
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_can_t_make_it:
+      children:
+        - field_en_can_t_make_it
+        - field_ms_can_t_make_it
+      label: "Can't make it"
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 57
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_about_to_confirm_your_atte:
+      children:
+        - field_en_about_to_confirm_your_a
+        - field_ms_about_to_confirm_your_a
+      label: 'about to confirm your attendance for this interview.'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 58
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_here_is_your_start_date:
+      children:
+        - field_en_here_is_your_start_date
+        - field_ms_here_is_your_start_date
+      label: 'Here is your start date:'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 59
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_hello:
+      children:
+        - field_en_hello
+        - field_ms_hello
+      label: Hello
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 60
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_let_s_explore:
+      children:
+        - field_en_let_s_explore
+        - field_ms_let_s_explore
+      label: "Let's explore"
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 61
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_your_job_opportunities:
+      children:
+        - field_en_your_job_opportunities
+        - field_ms_your_job_opportunities
+      label: 'your job opportunities'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 62
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_enter_your_motivation_for:
+      children:
+        - field_en_enter_your_motivation_f
+        - field_ms_enter_your_motivation_f
+      label: 'Enter your motivation for this specific Vacancy'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 63
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_date:
+      children:
+        - field_date
+        - field_ms_date
+      label: DATE
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 64
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_time:
+      children:
+        - field_en_time
+        - field_ms_time
+      label: Time
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 65
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_venue:
+      children:
+        - field_en_venue
+        - field_ms_venue
+      label: VENUE
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 66
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_make_sure_your_spelling_is:
+      children:
+        - field_english_make_sure_your_spe
+        - field_malay_make_sure_your_spell
+      label: 'Make sure your spelling is correct'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 67
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_use_full_words_instead_of:
+      children:
+        - field_english_use_full_words_ins
+        - field_malay_use_full_words_inste
+      label: 'Use full words instead of short forms for job titles'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 68
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_my_applications:
+      children:
+        - field_english_my_applications
+        - field_malay_my_applications
+      label: 'My Applications'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 69
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_job_applied:
+      children:
+        - field_english_job_applied
+        - field_malay_job_applied
+      label: 'Job applied'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 70
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_job_interview_accepted:
+      children:
+        - field_english_job_interview_acce
+        - field_malay_job_interview_accept
+      label: 'Job interview accepted'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 71
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_job_offer_received:
+      children:
+        - field_english_job_offer_received
+        - field_malay_job_offer_received
+      label: 'Job offer received'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 72
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_job_interview_invitation_p:
+      children:
+        - field_english_job_interview_invi
+        - field_malay_job_interview_invita
+      label: 'Job interview invitation pending'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 73
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_job_offer_rejected:
+      children:
+        - field_english_job_offer_rejected
+        - field_malay_job_offer_rejected
+      label: 'Job offer rejected'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 74
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_text_not_shortlisted:
+      children:
+        - field_english_not_shortlisted
+        - field_malay_not_shortlisted
+      label: 'Text Not shortlisted'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 75
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_no_longer_accepting_applic:
+      children:
+        - field_english_no_longer_acceptin
+        - field_malay_no_longer_accepting
+      label: 'No longer accepting application'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 76
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_job_offer_accepted:
+      children:
+        - field_english_job_offer_accepted
+        - field_malay_job_offer_accepted
+      label: 'Job offer accepted'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 77
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_job_interview_rejected:
+      children:
+        - field_english_job_interview_reje
+        - field_malay_job_interview_reject
+      label: 'Job interview rejected'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 78
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_active:
+      children:
+        - field_english_active
+        - field_malay_active
+      label: Active
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 79
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_inactive:
+      children:
+        - field_english_inactive
+        - field_malay_inactive
+      label: InActive
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 80
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_days_ago:
+      children:
+        - field_english_days_ago
+        - field_malay_days_ago
+      label: 'days ago'
+      region: content
+      parent_name: group_home_screen
+      weight: 128
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+        open: false
+    group_copied:
+      children:
+        - field_english_copied
+        - field_malay_copied
+      label: 'Email Copied'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 84
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_rm:
+      children:
+        - field_english_screen_rm
+        - field_malay_rm
+      label: RM
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 83
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_show_less_text:
+      children:
+        - field_english_show_less_jobs
+        - field_malay_show_less_job
+      label: 'Show Less'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 82
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_show_more_text:
+      children:
+        - field_english_show_more_jobs
+        - field_malay_show_more_jobs
+      label: 'Show More'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 81
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_biometric_authentication_i:
+      children:
+        - field_english_biometric_authenti
+        - field_malay_biometric_authentica
+      label: 'Biometric authentication is disabled or not set up on your device. Would you like to open settings to enable it?'
+      region: content
+      parent_name: group_home_screen
+      weight: 129
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_biometric_setup_required:
+      children:
+        - field_english_biometric_setup_re
+        - field_malay_biometric_setup_requ
+      label: 'Biometric Setup Required'
+      region: content
+      parent_name: group_home_screen
+      weight: 130
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_biometric_authentication:
+      children:
+        - field_en_biometric_authenticatio
+        - field_biometric_authentication_m
+      label: 'Biometric Authentication'
+      region: content
+      parent_name: group_home_screen
+      weight: 131
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_view_profile:
+      children:
+        - field_english_view_profile
+        - field_malay_view_profile
+      label: 'View Profile'
+      region: content
+      parent_name: group_home_screen
+      weight: 132
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_activities:
+      children:
+        - field_english_activities
+        - field_malay_activities
+      label: Activities
+      region: content
+      parent_name: group_home_screen
+      weight: 133
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_preferred_occupation_is_re:
+      children:
+        - field_english_preferred_occupati
+        - field_malay_preferred_occupation
+      label: 'Preferred Occupation is required'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 95
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_related_skill_is_required:
+      children:
+        - field_english_related_skill_is_r
+        - field_malay_related_skill_is_req
+      label: 'Related skill is required'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 96
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_accepted_job_interview:
+      children:
+        - field_english_accepted_job_inter
+        - field_malay_accepted_job_intervi
+      label: 'Accepted Job Interview'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 85
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_text_job_applied:
+      children:
+        - field_en_job_applied
+        - field_ms_job_applied
+      label: 'Job Applied'
+      region: content
+      parent_name: group_home_screen
+      weight: 134
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_logout:
+      children:
+        - field_english_logout
+        - field_malay_logout
+      label: Logout
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 103
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_getting_started:
+      children:
+        - field_english_getting_started
+        - field_malay_getting_started
+      label: 'Getting Started'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 99
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_please_key_in_and_select_t:
+      children:
+        - field_en_please_key_in_and_selec
+        - field_ms_please_key_in_and_selec
+      label: 'Please key in and select the closest occupation that you are looking for.'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 97
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_save_and_next:
+      children:
+        - field_english_save_and_next
+        - field_malay_save_and_next
+      label: 'Save and Next'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 100
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_select_one_input_placehold:
+      children:
+        - field_english_select_one_input_p
+        - field_malay_select_one_input_pla
+      label: 'Select one (Input Placeholder)'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 101
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_select_one_employment_stat:
+      children:
+        - field_malay_select_one_employmen
+        - field_english_select_one_employm
+      label: 'Select one (Employment Status Placeholder)'
+      region: content
+      parent_name: group_home_screen
+      weight: 146
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_if_you_choose_no_your_prof:
+      children:
+        - field_english_if_you_choose_no_y
+        - field_malay_if_you_choose_no_you
+      label: 'If you choose ‘No’, your profile will not be matched to active vacancies by the employer.'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 102
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_you_have_selected_counts_s:
+      children:
+        - field_english_you_have_selected
+        - field_malay_you_have_selected_co
+      label: 'You have selected <Counts> skill(s) for this job'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 98
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_you_can_use_your_biometric:
+      children:
+        - field_english_you_can_use_your_b
+        - field_malay_you_can_use_your_bio
+      label: 'You can use your biometric to continue login through this app. Would you like to setup biometric login?'
+      region: content
+      parent_name: group_home_screen
+      weight: 135
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_yes:
+      children:
+        - field_en_yes
+        - field_ms_yes
+      label: 'Yes'
+      region: content
+      parent_name: group_home_screen
+      weight: 136
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_skip_for_now:
+      children:
+        - field_english_skip_for_now
+        - field_malay_skip_for_now
+      label: 'Skip for Now'
+      region: content
+      parent_name: group_home_screen
+      weight: 137
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_settings:
+      children:
+        - field_english_settings
+        - field_malay_settings
+      label: Settings
+      region: content
+      parent_name: group_home_screen
+      weight: 138
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_employment_status_input_la:
+      children:
+        - field_employment_status_en
+        - field_employment_status_ms
+      label: 'Employment Status (Input Label)'
+      region: content
+      parent_name: group_home_screen
+      weight: 139
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_logout_button:
+      children:
+        - field_english_logout_button
+        - field_malay_logout_button
+      label: 'Logout (Button)'
+      region: content
+      parent_name: group_home_screen
+      weight: 140
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_employment_status_home_inp:
+      children:
+        - field_en_employment_status_input
+        - field_ms_employment_status_input
+      label: 'Employment Status* (Home-Input Label)'
+      region: content
+      parent_name: group_home_screen
+      weight: 141
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_yes_radio_button:
+      children:
+        - field_english_yes_radio_button
+        - field_malay_yes_radio_button
+      label: 'Yes (Radio Button)'
+      region: content
+      parent_name: group_home_screen
+      weight: 142
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_information_text_malay_if:
+      children:
+        - field_en_if_you_choose_no_your_p
+        - field_ms_if_you_choose_no_your_p
+      label: '(Information Text) Malay If you choose ‘No’, your profile will not be matched to active vacancies by the employer.'
+      region: content
+      parent_name: group_home_screen
+      weight: 143
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_cancel:
+      children:
+        - field_english_cancel
+        - field_malay_cancel
+      label: Cancel
+      region: content
+      parent_name: group_home_screen
+      weight: 145
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_select_one:
+      children:
+        - field_en_select_one
+        - field_select_one_ms
+      label: 'Select one'
+      region: content
+      parent_name: group_home_screen
+      weight: 147
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_my_jobs_header:
+      children:
+        - field_english_my_jobs
+        - field_malay_my_jobs
+      label: 'My Jobs (Header)'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 86
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_match_jobs:
+      children:
+        - field_english_match_jobs
+        - field_malay_match_jobs
+      label: 'Match Jobs'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 87
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_search_saved_jobs:
+      children:
+        - field_english_search_saved_jobs
+        - field_malay_search_saved_jobs
+      label: 'Search Saved Jobs'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 89
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_search_my_applications:
+      children:
+        - field_english_search_my_applicat
+        - field_malay_search_my_applicatio
+      label: 'Search My Applications'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 90
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_go_to_profile:
+      children:
+        - field_english_go_to_profile
+        - field_malay_go_to_profile
+      label: 'Go to Profile'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 91
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_there_is_no_saved_jobs_at:
+      children:
+        - field_english_there_is_no_saved
+        - field_malay_there_is_no_saved_jo
+      label: 'There is no saved jobs at the moment. Start searching for jobs now!'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 92
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_open_position_s_job_vacanc:
+      children:
+        - field_english_search_match_jobs
+        - field_malay_search_match_jobs
+      label: 'Search Match Jobs'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 88
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_text_date:
+      children:
+        - field_en_date
+        - field_bm_date
+      label: 'Date : '
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 93
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_text_time:
+      children:
+        - field_eng_time
+        - field_mal_time
+      label: 'Time :'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 94
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_text_venue:
+      children:
+        - field_english_venue
+        - field_malay_venue
+      label: 'Venue :'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 95
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_cancel_button:
+      children:
+        - field_english_cancel_button
+        - field_malay_cancel_button
+      label: 'Cancel (Button)'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 96
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_you_re_about_to_confirm_yo:
+      children:
+        - field_english_you_re_about_to_co
+        - field_malay_you_re_about_to_conf
+      label: "You're about to confirm your attendance for this interview."
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 97
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_text_show_more:
+      children:
+        - field_eng_show_more
+        - field_mal_show_more
+      label: 'Text Show more'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 98
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_text_show_less:
+      children:
+        - field_eng_show_less
+        - field_mal_show_less
+      label: 'Show Less'
+      region: content
+      parent_name: group_my_jobs_screen
+      weight: 99
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+id: node.onboarding_home_my_jobs_screens.default
+targetEntityType: node
+bundle: onboarding_home_my_jobs_screens
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_are_you_looking_for_a_new:
+    type: string_textfield
+    weight: 12
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_back_en:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_back_ms:
+    type: string_textfield
+    weight: 12
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_biometric_authentication_m:
+    type: string_textfield
+    weight: 140
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_bm_date:
+    type: string_textfield
+    weight: 22
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_confirm_en:
+    type: string_textfield
+    weight: 18
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_confirm_ms:
+    type: string_textfield
+    weight: 19
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_date:
+    type: string_textfield
+    weight: 21
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_employment_status_en:
+    type: string_textfield
+    weight: 139
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_employment_status_ms:
+    type: string_textfield
+    weight: 141
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_about_to_confirm_accept:
+    type: string_textfield
+    weight: 18
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_about_to_confirm_your_a:
+    type: string_textfield
+    weight: 27
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_accept_this_job_intervi:
+    type: string_textfield
+    weight: 18
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_accept_this_job_offer:
+    type: string_textfield
+    weight: 26
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_been_requested_to_repor:
+    type: string_textfield
+    weight: 30
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_biometric_authenticatio:
+    type: string_textfield
+    weight: 138
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_can_t_find_the_skills_y:
+    type: text_textarea
+    weight: 32
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_can_t_make_it:
+    type: string_textfield
+    weight: 21
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_confirm_acceptance_for:
+    type: string_textfield
+    weight: 23
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_date:
+    type: string_textfield
+    weight: 21
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_e_g_perform_market_rese:
+    type: string_textfield
+    weight: 30
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_e_g_sales_manager:
+    type: string_textfield
+    weight: 22
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_education_level:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_employment_status:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_employment_status_input:
+    type: string_textfield
+    weight: 141
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_enable_locations:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_enter_your_motivation_f:
+    type: string_textfield
+    weight: 38
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_field_of_study:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_find_jobs_now:
+    type: string_textfield
+    weight: 38
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_hello:
+    type: string_textfield
+    weight: 24
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_here_are_some_suggested:
+    type: text_textarea
+    weight: 36
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_here_is_your_start_date:
+    type: string_textfield
+    weight: 34
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_highlighted_post:
+    type: string_textfield
+    weight: 115
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_home:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_i_have_experience_with:
+    type: text_textarea
+    weight: 87
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_if_you_choose_no_your_p:
+    type: string_textfield
+    weight: 143
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_job_applied:
+    type: string_textfield
+    weight: 12
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_job_interview_invitatio:
+    type: string_textfield
+    weight: 115
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_job_offers:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_kindly_update_your_empl:
+    type: text_textarea
+    weight: 12
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_let_s_explore:
+    type: string_textfield
+    weight: 31
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_let_s_get_started:
+    type: string_textfield
+    weight: 79
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_location_access_require:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_match_jobs_number_of_re:
+    type: text_textarea
+    weight: 11
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_more:
+    type: string_textfield
+    weight: 15
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_my_jobs:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_nearby_jobs_number_of_r:
+    type: text_textarea
+    weight: 11
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_new_highlighted_post_av:
+    type: string_textfield
+    weight: 118
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_no_application:
+    type: string_textfield
+    weight: 60
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_no_saved_jobs:
+    type: string_textfield
+    weight: 18
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_not_shortlisted:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_please_key_in_and_selec:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_please_specify_a_reason:
+    type: string_textfield
+    weight: 44
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_preferred_occupation:
+    type: string_textfield
+    weight: 20
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_profile:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_reject:
+    type: string_textfield
+    weight: 41
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_reject_this_job_intervi:
+    type: string_textfield
+    weight: 47
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_reject_this_job_offer:
+    type: string_textfield
+    weight: 21
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_rejected_this_job_offer:
+    type: string_textfield
+    weight: 19
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_related_skills:
+    type: string_textfield
+    weight: 28
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_reschedule:
+    type: string_textfield
+    weight: 31
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_select_education_level:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_select_employment_statu:
+    type: string_textfield
+    weight: 100
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_select_field_of_study:
+    type: string_textfield
+    weight: 100
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_select_one:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_select_preferred_occupa:
+    type: string_textfield
+    weight: 83
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_show_less:
+    type: string_textfield
+    weight: 15
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_show_more:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_sorry:
+    type: string_textfield
+    weight: 25
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_specify_a_reason_for_re:
+    type: string_textfield
+    weight: 17
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_specify_your_reason_her:
+    type: string_textfield
+    weight: 40
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_start_your_job_search:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_start_your_journey:
+    type: string_textfield
+    weight: 15
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_there_is_no_job_applica:
+    type: string_textfield
+    weight: 72
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_this_job_is_no_longer_a:
+    type: string_textfield
+    weight: 37
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_time:
+    type: string_textfield
+    weight: 29
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_to_reschedule_this_inte:
+    type: text_textarea
+    weight: 26
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_venue:
+    type: string_textfield
+    weight: 19
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_view_post:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_we_need_your_location_t:
+    type: text_textarea
+    weight: 14
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_we_want_to_help_you_fin:
+    type: text_textarea
+    weight: 76
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_welcome_to_myfuturejobs:
+    type: string_textfield
+    weight: 9
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_yes:
+    type: string_textfield
+    weight: 14
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_you_have_been_invited_t:
+    type: text_textarea
+    weight: 37
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_you_have_been_offered_a:
+    type: text_textarea
+    weight: 28
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_you_have_not_been_short:
+    type: string_textfield
+    weight: 23
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_you_have_rejected_this:
+    type: string_textfield
+    weight: 37
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_you_re_about_to_reject:
+    type: string_textfield
+    weight: 43
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_en_your_job_opportunities:
+    type: string_textfield
+    weight: 27
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_eng_show_less:
+    type: string_textfield
+    weight: 40
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_eng_show_more:
+    type: string_textfield
+    weight: 37
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_eng_time:
+    type: string_textfield
+    weight: 27
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_accept:
+    type: string_textfield
+    weight: 20
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_accepted_job_inter:
+    type: string_textfield
+    weight: 16
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_active:
+    type: string_textfield
+    weight: 29
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_activities:
+    type: string_textfield
+    weight: 19
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_biometric_authenti:
+    type: string_textarea
+    weight: 22
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_biometric_setup_re:
+    type: string_textfield
+    weight: 20
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_cancel:
+    type: string_textfield
+    weight: 29
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_cancel_button:
+    type: string_textfield
+    weight: 30
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_copied:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_days_ago:
+    type: string_textfield
+    weight: 15
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_find_jobs_now:
+    type: string_textfield
+    weight: 57
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_getting_started:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_go_to_profile:
+    type: string_textfield
+    weight: 21
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_if_you_choose_no_y:
+    type: string_textfield
+    weight: 25
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_inactive:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_job_applied:
+    type: string_textfield
+    weight: 31
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_job_interview_acce:
+    type: string_textfield
+    weight: 21
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_job_interview_invi:
+    type: string_textfield
+    weight: 19
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_job_interview_reje:
+    type: string_textfield
+    weight: 16
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_job_offer_accepted:
+    type: string_textfield
+    weight: 32
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_job_offer_received:
+    type: string_textfield
+    weight: 28
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_job_offer_rejected:
+    type: string_textfield
+    weight: 21
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_logout:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_logout_button:
+    type: string_textfield
+    weight: 141
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_make_sure_your_spe:
+    type: string_textfield
+    weight: 27
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_match_jobs:
+    type: string_textfield
+    weight: 16
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_my_applications:
+    type: string_textfield
+    weight: 25
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_my_applications_nu:
+    type: string_textfield
+    weight: 15
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_my_jobs:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_no:
+    type: string_textfield
+    weight: 15
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_no_longer_acceptin:
+    type: string_textfield
+    weight: 18
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_not_shortlisted:
+    type: string_textfield
+    weight: 35
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_preferred_occupati:
+    type: string_textfield
+    weight: 12
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_related_skill_is_r:
+    type: string_textfield
+    weight: 14
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_save_and_next:
+    type: string_textfield
+    weight: 20
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_saved_jobs_number:
+    type: string_textfield
+    weight: 15
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_screen_rm:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_search_match_jobs:
+    type: string_textfield
+    weight: 21
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_search_my_applicat:
+    type: string_textfield
+    weight: 21
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_search_saved_jobs:
+    type: string_textfield
+    weight: 23
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_select_one_employm:
+    type: string_textfield
+    weight: 146
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_select_one_input_p:
+    type: string_textfield
+    weight: 21
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_settings:
+    type: string_textfield
+    weight: 18
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_show_less_jobs:
+    type: string_textfield
+    weight: 117
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_show_more_jobs:
+    type: string_textfield
+    weight: 78
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_skip_for_now:
+    type: string_textfield
+    weight: 16
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_there_is_no_saved:
+    type: string_textfield
+    weight: 21
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_use_full_words_ins:
+    type: string_textfield
+    weight: 21
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_venue:
+    type: string_textfield
+    weight: 28
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_view_profile:
+    type: string_textfield
+    weight: 20
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_we_can_t_find_any:
+    type: text_textarea
+    weight: 18
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_yes:
+    type: string_textfield
+    weight: 128
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_yes_radio_button:
+    type: string_textfield
+    weight: 141
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_you_applied_this_j:
+    type: text_textarea
+    weight: 37
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_you_can_use_your_b:
+    type: string_textfield
+    weight: 12
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_you_have_accepted:
+    type: text_textarea
+    weight: 23
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_you_have_selected:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_english_you_re_about_to_co:
+    type: string_textfield
+    weight: 35
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_mal_show_less:
+    type: string_textfield
+    weight: 41
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_mal_show_more:
+    type: string_textfield
+    weight: 38
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_mal_time:
+    type: string_textfield
+    weight: 28
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_accept:
+    type: string_textfield
+    weight: 22
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_accepted_job_intervi:
+    type: string_textfield
+    weight: 17
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_active:
+    type: string_textfield
+    weight: 31
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_activities:
+    type: string_textfield
+    weight: 21
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_are_you_looking_for:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_biometric_authentica:
+    type: string_textarea
+    weight: 23
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_biometric_setup_requ:
+    type: string_textfield
+    weight: 21
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_cancel:
+    type: string_textfield
+    weight: 31
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_cancel_button:
+    type: string_textfield
+    weight: 31
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_copied:
+    type: string_textfield
+    weight: 14
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_days_ago:
+    type: string_textfield
+    weight: 17
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_find_jobs_now:
+    type: string_textfield
+    weight: 59
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_getting_started:
+    type: string_textfield
+    weight: 14
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_go_to_profile:
+    type: string_textfield
+    weight: 22
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_if_you_choose_no_you:
+    type: string_textfield
+    weight: 26
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_inactive:
+    type: string_textfield
+    weight: 14
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_job_applied:
+    type: string_textfield
+    weight: 32
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_job_interview_accept:
+    type: string_textfield
+    weight: 22
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_job_interview_invita:
+    type: string_textfield
+    weight: 21
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_job_interview_reject:
+    type: string_textfield
+    weight: 18
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_job_offer_accepted:
+    type: string_textfield
+    weight: 33
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_job_offer_received:
+    type: string_textfield
+    weight: 29
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_job_offer_rejected:
+    type: string_textfield
+    weight: 22
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_logout:
+    type: string_textfield
+    weight: 15
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_logout_button:
+    type: string_textfield
+    weight: 142
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_make_sure_your_spell:
+    type: string_textfield
+    weight: 29
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_match_jobs:
+    type: string_textfield
+    weight: 17
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_my_applications:
+    type: string_textfield
+    weight: 27
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_my_applications_numb:
+    type: string_textfield
+    weight: 16
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_my_jobs:
+    type: string_textfield
+    weight: 14
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_no:
+    type: string_textfield
+    weight: 17
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_no_longer_accepting:
+    type: string_textfield
+    weight: 19
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_not_shortlisted:
+    type: string_textfield
+    weight: 37
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_preferred_occupation:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_related_skill_is_req:
+    type: string_textfield
+    weight: 15
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_rm:
+    type: string_textfield
+    weight: 15
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_save_and_next:
+    type: string_textfield
+    weight: 22
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_saved_jobs_number_of:
+    type: string_textfield
+    weight: 16
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_search_match_jobs:
+    type: string_textfield
+    weight: 22
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_search_my_applicatio:
+    type: string_textfield
+    weight: 22
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_search_saved_jobs:
+    type: string_textfield
+    weight: 24
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_select_one_employmen:
+    type: string_textfield
+    weight: 145
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_select_one_input_pla:
+    type: string_textfield
+    weight: 22
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_settings:
+    type: string_textfield
+    weight: 19
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_show_less_job:
+    type: string_textfield
+    weight: 119
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_show_more_jobs:
+    type: string_textfield
+    weight: 79
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_skip_for_now:
+    type: string_textfield
+    weight: 17
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_there_is_no_saved_jo:
+    type: string_textfield
+    weight: 22
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_use_full_words_inste:
+    type: string_textfield
+    weight: 22
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_venue:
+    type: string_textfield
+    weight: 29
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_view_profile:
+    type: string_textfield
+    weight: 22
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_we_can_t_find_any_jo:
+    type: text_textarea
+    weight: 19
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_yes:
+    type: string_textfield
+    weight: 129
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_yes_radio_button:
+    type: string_textfield
+    weight: 143
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_you_applied_this_job:
+    type: text_textarea
+    weight: 38
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_you_can_use_your_bio:
+    type: string_textfield
+    weight: 14
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_you_have_accepted_th:
+    type: text_textarea
+    weight: 25
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_you_have_not_been_sh:
+    type: string_textfield
+    weight: 24
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_you_have_selected_co:
+    type: string_textfield
+    weight: 14
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_you_re_about_to_conf:
+    type: string_textfield
+    weight: 36
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_about_to_confirm_accept:
+    type: string_textfield
+    weight: 19
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_about_to_confirm_your_a:
+    type: string_textfield
+    weight: 29
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_accept_this_job_intervi:
+    type: string_textfield
+    weight: 19
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_accept_this_job_offer:
+    type: string_textfield
+    weight: 27
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_been_requested_to_repor:
+    type: string_textfield
+    weight: 32
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_can_t_find_the_skills_y:
+    type: text_textarea
+    weight: 33
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_can_t_make_it:
+    type: string_textfield
+    weight: 22
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_confirm_acceptance_for:
+    type: string_textfield
+    weight: 25
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_date:
+    type: string_textfield
+    weight: 22
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_e_g_perform_market_rese:
+    type: string_textfield
+    weight: 33
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_e_g_sales_manager:
+    type: string_textfield
+    weight: 23
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_education_level:
+    type: string_textfield
+    weight: 14
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_employment_status:
+    type: string_textfield
+    weight: 12
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_employment_status_input:
+    type: string_textfield
+    weight: 142
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_enable_locations:
+    type: string_textfield
+    weight: 14
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_enter_your_motivation_f:
+    type: string_textfield
+    weight: 40
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_field_of_study:
+    type: string_textfield
+    weight: 12
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_find_jobs_now:
+    type: string_textfield
+    weight: 40
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_hello:
+    type: string_textfield
+    weight: 25
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_here_are_some_suggested:
+    type: text_textarea
+    weight: 37
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_here_is_your_start_date:
+    type: string_textfield
+    weight: 35
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_highlighted_post:
+    type: string_textfield
+    weight: 116
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_home:
+    type: string_textfield
+    weight: 12
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_i_have_experience_with:
+    type: text_textarea
+    weight: 88
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_if_you_choose_no_your_p:
+    type: string_textfield
+    weight: 144
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_job_applied:
+    type: string_textfield
+    weight: 14
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_job_interview_invitatio:
+    type: string_textfield
+    weight: 116
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_job_offers:
+    type: string_textfield
+    weight: 12
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_kindly_update_your_empl:
+    type: text_textarea
+    weight: 13
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_let_s_explore:
+    type: string_textfield
+    weight: 32
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_let_s_get_started:
+    type: string_textfield
+    weight: 80
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_location_access_require:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_match_jobs_number_of_re:
+    type: text_textarea
+    weight: 12
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_more:
+    type: string_textfield
+    weight: 17
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_my_jobs:
+    type: string_textfield
+    weight: 12
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_nearby_jobs_number_of_r:
+    type: text_textarea
+    weight: 12
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_new_highlighted_post_av:
+    type: string_textfield
+    weight: 120
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_no_application:
+    type: string_textfield
+    weight: 62
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_no_saved_jobs:
+    type: string_textfield
+    weight: 20
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_not_shortlisted:
+    type: string_textfield
+    weight: 12
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_please_key_in_and_selec:
+    type: string_textfield
+    weight: 14
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_please_specify_a_reason:
+    type: string_textfield
+    weight: 45
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_preferred_occupation:
+    type: string_textfield
+    weight: 21
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_profile:
+    type: string_textfield
+    weight: 12
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_reject:
+    type: string_textfield
+    weight: 42
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_reject_this_job_intervi:
+    type: string_textfield
+    weight: 48
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_reject_this_job_offer:
+    type: string_textfield
+    weight: 22
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_rejected_this_job_offer:
+    type: string_textfield
+    weight: 20
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_related_skills:
+    type: string_textfield
+    weight: 29
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_reschedule:
+    type: string_textfield
+    weight: 32
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_select_education_level:
+    type: string_textfield
+    weight: 14
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_select_employment_statu:
+    type: string_textfield
+    weight: 101
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_select_field_of_study:
+    type: string_textfield
+    weight: 101
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_select_preferred_occupa:
+    type: string_textfield
+    weight: 84
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_show_less:
+    type: string_textfield
+    weight: 16
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_show_more:
+    type: string_textfield
+    weight: 12
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_sorry:
+    type: string_textfield
+    weight: 26
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_specify_a_reason_for_re:
+    type: string_textfield
+    weight: 19
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_specify_your_reason_her:
+    type: string_textfield
+    weight: 41
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_start_your_job_search:
+    type: string_textfield
+    weight: 14
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_start_your_journey:
+    type: string_textfield
+    weight: 17
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_there_is_no_job_applica:
+    type: string_textfield
+    weight: 73
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_this_job_is_no_longer_a:
+    type: string_textfield
+    weight: 38
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_time:
+    type: string_textfield
+    weight: 30
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_to_reschedule_this_inte:
+    type: text_textarea
+    weight: 27
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_venue:
+    type: string_textfield
+    weight: 21
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_view_post:
+    type: string_textfield
+    weight: 13
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_we_need_your_location_t:
+    type: text_textarea
+    weight: 15
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_we_want_to_help_you_fin:
+    type: text_textarea
+    weight: 77
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_welcome_to_myfuturejobs:
+    type: string_textfield
+    weight: 10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_yes:
+    type: string_textfield
+    weight: 16
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_you_have_been_invited_t:
+    type: text_textarea
+    weight: 39
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_you_have_been_offered_a:
+    type: text_textarea
+    weight: 29
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_you_have_rejected_this:
+    type: string_textfield
+    weight: 38
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_you_re_about_to_reject:
+    type: string_textfield
+    weight: 44
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_ms_your_job_opportunities:
+    type: string_textfield
+    weight: 28
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_select_one_ms:
+    type: string_textfield
+    weight: 15
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  moderation_state:
+    type: moderation_state_default
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 4
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 8
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 5
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 2
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  publish_on: true
+  publish_state: true
+  unpublish_on: true
+  unpublish_state: true
