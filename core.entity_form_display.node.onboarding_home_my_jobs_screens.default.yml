@@ -142,6 +142,7 @@ dependencies:
     - field.field.node.onboarding_home_my_jobs_screens.field_english_show_more_jobs
     - field.field.node.onboarding_home_my_jobs_screens.field_english_skip_for_now
     - field.field.node.onboarding_home_my_jobs_screens.field_english_there_is_no_saved
+    - field.field.node.onboarding_home_my_jobs_screens.field_english_today
     - field.field.node.onboarding_home_my_jobs_screens.field_english_use_full_words_ins
     - field.field.node.onboarding_home_my_jobs_screens.field_english_venue
     - field.field.node.onboarding_home_my_jobs_screens.field_english_view_profile
@@ -204,6 +205,7 @@ dependencies:
     - field.field.node.onboarding_home_my_jobs_screens.field_malay_show_more_jobs
     - field.field.node.onboarding_home_my_jobs_screens.field_malay_skip_for_now
     - field.field.node.onboarding_home_my_jobs_screens.field_malay_there_is_no_saved_jo
+    - field.field.node.onboarding_home_my_jobs_screens.field_malay_today
     - field.field.node.onboarding_home_my_jobs_screens.field_malay_use_full_words_inste
     - field.field.node.onboarding_home_my_jobs_screens.field_malay_venue
     - field.field.node.onboarding_home_my_jobs_screens.field_malay_view_profile
@@ -306,7 +308,7 @@ third_party_settings:
       children:
         - field_en_welcome_to_myfuturejobs
         - field_ms_welcome_to_myfuturejobs
-      label: 'Welcome to MYFutureJobs'
+      label: 'Welcome to MYFutureJobs - Title'
       region: content
       parent_name: group_onboarding_screen
       weight: 74
@@ -318,12 +320,11 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_we_want_to_help_you_find_y:
       children:
         - field_en_we_want_to_help_you_fin
         - field_ms_we_want_to_help_you_fin
-      label: 'We want to help you find your ideal job. Let’s customise your journey and discover roles that align with your preferences!'
+      label: 'We want to help you find your ideal job. Let’s customise your journey and discover roles that align with your ...! - Subtext'
       region: content
       parent_name: group_onboarding_screen
       weight: 75
@@ -335,12 +336,11 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_let_s_get_started:
       children:
         - field_en_let_s_get_started
         - field_ms_let_s_get_started
-      label: 'Let’s Get Started'
+      label: 'Let’s Get Started - Action Button'
       region: content
       parent_name: group_onboarding_screen
       weight: 76
@@ -352,46 +352,11 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_select_preferred_occupatio:
       children:
         - field_en_select_preferred_occupa
         - field_ms_select_preferred_occupa
-      label: 'Select Preferred Occupation'
-      region: content
-      parent_name: group_onboarding_screen
-      weight: 77
-      format_type: fieldset
-      format_settings:
-        classes: ''
-        show_empty_fields: false
-        id: ''
-        label_as_html: false
-        description: ''
-        required_fields: true
-        open: false
-    group_preferred_occupation:
-      children:
-        - field_en_preferred_occupation
-        - field_ms_preferred_occupation
-      label: 'Preferred Occupation*'
-      region: content
-      parent_name: group_onboarding_screen
-      weight: 78
-      format_type: fieldset
-      format_settings:
-        classes: ''
-        show_empty_fields: false
-        id: ''
-        label_as_html: false
-        description: ''
-        required_fields: true
-        open: false
-    group_e_g_sales_manager:
-      children:
-        - field_en_e_g_sales_manager
-        - field_ms_e_g_sales_manager
-      label: 'E.g. Sales Manager'
+      label: 'Select Preferred Occupation - Sub Header'
       region: content
       parent_name: group_onboarding_screen
       weight: 79
@@ -403,12 +368,11 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
-    group_i_have_experience_with_thi:
+    group_preferred_occupation:
       children:
-        - field_en_i_have_experience_with
-        - field_ms_i_have_experience_with
-      label: 'I have experience with this job (Optional)'
+        - field_en_preferred_occupation
+        - field_ms_preferred_occupation
+      label: 'Preferred Occupation* - Input Label'
       region: content
       parent_name: group_onboarding_screen
       weight: 80
@@ -420,12 +384,11 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
-    group_related_skills:
+    group_e_g_sales_manager:
       children:
-        - field_en_related_skills
-        - field_ms_related_skills
-      label: 'Related Skills*'
+        - field_en_e_g_sales_manager
+        - field_ms_e_g_sales_manager
+      label: 'E.g. Sales Manager - Input Placeholder '
       region: content
       parent_name: group_onboarding_screen
       weight: 81
@@ -437,29 +400,11 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
-    group_e_g_perform_market_researc:
+    group_i_have_experience_with_thi:
       children:
-        - field_en_e_g_perform_market_rese
-        - field_ms_e_g_perform_market_rese
-      label: 'E.g. Perform market research'
-      region: content
-      parent_name: group_onboarding_screen
-      weight: 82
-      format_type: fieldset
-      format_settings:
-        classes: ''
-        show_empty_fields: false
-        id: ''
-        label_as_html: false
-        description: ''
-        required_fields: true
-        open: false
-    group_can_t_find_the_skills_you:
-      children:
-        - field_en_can_t_find_the_skills_y
-        - field_ms_can_t_find_the_skills_y
-      label: "Can't find the skills you're looking for? You can manually enter any skills you have to improve your job matches."
+        - field_en_i_have_experience_with
+        - field_ms_i_have_experience_with
+      label: 'I have experience with this job (Optional) - Input Label'
       region: content
       parent_name: group_onboarding_screen
       weight: 83
@@ -471,12 +416,11 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
-    group_here_are_some_suggested_sk:
+    group_related_skills:
       children:
-        - field_en_here_are_some_suggested
-        - field_ms_here_are_some_suggested
-      label: 'Here are some suggested skills based on your selected occupation:'
+        - field_en_related_skills
+        - field_ms_related_skills
+      label: 'Related Skills* - Input Label'
       region: content
       parent_name: group_onboarding_screen
       weight: 84
@@ -488,19 +432,70 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
+    group_e_g_perform_market_researc:
+      children:
+        - field_en_e_g_perform_market_rese
+        - field_ms_e_g_perform_market_rese
+      label: 'E.g. Perform market research - Input Placeholder'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 85
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_can_t_find_the_skills_you:
+      children:
+        - field_en_can_t_find_the_skills_y
+        - field_ms_can_t_find_the_skills_y
+      label: "Can't find the skills you're looking for? You can manually enter any skills you have to improve your job ... - Information Text"
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 86
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_here_are_some_suggested_sk:
+      children:
+        - field_en_here_are_some_suggested
+        - field_ms_here_are_some_suggested
+      label: 'Here are some suggested skills based on your selected occupation: - Input Placeholder'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 88
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
     group_onboarding_screen:
       children:
         - group_welcome_to_myfuturejobs
         - group_we_want_to_help_you_find_y
         - group_let_s_get_started
+        - group_getting_started
+        - group_logout
         - group_select_preferred_occupatio
         - group_preferred_occupation
         - group_e_g_sales_manager
+        - group_please_key_in_and_select_t
         - group_i_have_experience_with_thi
         - group_related_skills
         - group_e_g_perform_market_researc
         - group_can_t_find_the_skills_you
+        - group_you_have_selected_counts_s
         - group_here_are_some_suggested_sk
         - group_show_more
         - group_show_less
@@ -510,17 +505,14 @@ third_party_settings:
         - group_select_field_of_study
         - group_select_employment_status
         - group_employment_status
+        - group_select_one_input_placehold
+        - group_text_are_you_looking_for_a
+        - group_if_you_choose_no_your_prof
         - group_start_your_journey
         - group_back
         - group_preferred_occupation_is_re
         - group_related_skill_is_required
-        - group_please_key_in_and_select_t
-        - group_you_have_selected_counts_s
-        - group_getting_started
         - group_save_and_next
-        - group_select_one_input_placehold
-        - group_if_you_choose_no_your_prof
-        - group_logout
       label: 'Onboarding Screen'
       region: content
       parent_name: ''
@@ -538,75 +530,7 @@ third_party_settings:
       children:
         - field_en_show_more
         - field_ms_show_more
-      label: 'Show More'
-      region: content
-      parent_name: group_onboarding_screen
-      weight: 85
-      format_type: fieldset
-      format_settings:
-        classes: ''
-        show_empty_fields: false
-        id: ''
-        label_as_html: false
-        description: ''
-        required_fields: true
-        open: false
-    group_show_less:
-      children:
-        - field_en_show_less
-        - field_ms_show_less
-      label: 'Show Less'
-      region: content
-      parent_name: group_onboarding_screen
-      weight: 86
-      format_type: fieldset
-      format_settings:
-        classes: ''
-        show_empty_fields: false
-        id: ''
-        label_as_html: false
-        description: ''
-        required_fields: true
-        open: false
-    group_education_level:
-      children:
-        - field_en_education_level
-        - field_ms_education_level
-      label: 'Education Level*'
-      region: content
-      parent_name: group_onboarding_screen
-      weight: 87
-      format_type: fieldset
-      format_settings:
-        classes: ''
-        show_empty_fields: false
-        id: ''
-        label_as_html: false
-        description: ''
-        required_fields: true
-        open: false
-    group_select_education_level:
-      children:
-        - field_en_select_education_level
-        - field_ms_select_education_level
-      label: 'Select education level'
-      region: content
-      parent_name: group_onboarding_screen
-      weight: 88
-      format_type: fieldset
-      format_settings:
-        classes: ''
-        show_empty_fields: false
-        id: ''
-        label_as_html: false
-        description: ''
-        required_fields: true
-        open: false
-    group_field_of_study:
-      children:
-        - field_en_field_of_study
-        - field_ms_field_of_study
-      label: 'Field of Study*'
+      label: 'Show More - Text Button'
       region: content
       parent_name: group_onboarding_screen
       weight: 89
@@ -618,12 +542,11 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
-    group_select_field_of_study:
+    group_show_less:
       children:
-        - field_en_select_field_of_study
-        - field_ms_select_field_of_study
-      label: 'Select field of study'
+        - field_en_show_less
+        - field_ms_show_less
+      label: 'Show Less - Text Button'
       region: content
       parent_name: group_onboarding_screen
       weight: 90
@@ -635,12 +558,11 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
-    group_select_employment_status:
+    group_education_level:
       children:
-        - field_en_select_employment_statu
-        - field_ms_select_employment_statu
-      label: 'Select Employment Status'
+        - field_en_education_level
+        - field_ms_education_level
+      label: 'Education Level* - Input Label'
       region: content
       parent_name: group_onboarding_screen
       weight: 91
@@ -652,12 +574,11 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
-    group_employment_status:
+    group_select_education_level:
       children:
-        - field_en_employment_status
-        - field_ms_employment_status
-      label: 'Employment Status*'
+        - field_en_select_education_level
+        - field_ms_select_education_level
+      label: 'Select education level - Input Placeholder'
       region: content
       parent_name: group_onboarding_screen
       weight: 92
@@ -669,12 +590,11 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
-    group_start_your_journey:
+    group_field_of_study:
       children:
-        - field_en_start_your_journey
-        - field_ms_start_your_journey
-      label: 'Start Your Journey'
+        - field_en_field_of_study
+        - field_ms_field_of_study
+      label: 'Field of Study* - Input Label'
       region: content
       parent_name: group_onboarding_screen
       weight: 93
@@ -686,12 +606,11 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
-    group_back:
+    group_select_field_of_study:
       children:
-        - field_back_en
-        - field_back_ms
-      label: Back
+        - field_en_select_field_of_study
+        - field_ms_select_field_of_study
+      label: 'Select field of study - Input Placeholder'
       region: content
       parent_name: group_onboarding_screen
       weight: 94
@@ -703,15 +622,78 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
+    group_select_employment_status:
+      children:
+        - field_en_select_employment_statu
+        - field_ms_select_employment_statu
+      label: 'Select Employment Status - Sub Header '
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 95
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_employment_status:
+      children:
+        - field_en_employment_status
+        - field_ms_employment_status
+      label: 'Employment Status* - Input Label'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 96
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_start_your_journey:
+      children:
+        - field_en_start_your_journey
+        - field_ms_start_your_journey
+      label: 'Start Your Journey - Action Button'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 100
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
+    group_back:
+      children:
+        - field_back_en
+        - field_back_ms
+      label: 'Back - Sai teja pls remove this from Onboarding screen'
+      region: content
+      parent_name: group_onboarding_screen
+      weight: 101
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
     group_start_your_job_search:
       children:
         - field_en_start_your_job_search
         - field_ms_start_your_job_search
-      label: 'Start your job search'
+      label: 'Start your job search - Search Bar'
       region: content
       parent_name: group_home_screen
-      weight: 106
+      weight: 160
       format_type: fieldset
       format_settings:
         classes: ''
@@ -720,15 +702,14 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_new_highlighted_post_avail:
       children:
         - field_en_new_highlighted_post_av
         - field_ms_new_highlighted_post_av
-      label: 'New highlighted post available'
+      label: 'New highlighted post available - Information Toast Message'
       region: content
       parent_name: group_home_screen
-      weight: 107
+      weight: 161
       format_type: fieldset
       format_settings:
         classes: ''
@@ -737,15 +718,14 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_view_post:
       children:
         - field_en_view_post
         - field_ms_view_post
-      label: 'View Post'
+      label: 'View Post - Action Button'
       region: content
       parent_name: group_home_screen
-      weight: 108
+      weight: 162
       format_type: fieldset
       format_settings:
         classes: ''
@@ -754,15 +734,14 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_highlighted_post:
       children:
         - field_en_highlighted_post
         - field_ms_highlighted_post
-      label: 'Highlighted Post'
+      label: 'Highlighted Post - Header '
       region: content
       parent_name: group_home_screen
-      weight: 109
+      weight: 163
       format_type: fieldset
       format_settings:
         classes: ''
@@ -771,15 +750,14 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_job_interview_invitation:
       children:
         - field_en_job_interview_invitatio
         - field_ms_job_interview_invitatio
-      label: 'Job Interview Invitation'
+      label: 'Job Interview Invitation - Stats Card'
       region: content
       parent_name: group_home_screen
-      weight: 110
+      weight: 164
       format_type: fieldset
       format_settings:
         classes: ''
@@ -788,15 +766,14 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_job_offers:
       children:
         - field_en_job_offers
         - field_ms_job_offers
-      label: 'Job Offers'
+      label: 'Job Offers - Stats Card'
       region: content
       parent_name: group_home_screen
-      weight: 111
+      weight: 166
       format_type: fieldset
       format_settings:
         classes: ''
@@ -805,15 +782,14 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_not_shortlisted:
       children:
         - field_en_not_shortlisted
         - field_ms_not_shortlisted
-      label: 'Not Shortlisted'
+      label: 'Not Shortlisted - Stats Card'
       region: content
       parent_name: group_home_screen
-      weight: 112
+      weight: 167
       format_type: fieldset
       format_settings:
         classes: ''
@@ -822,15 +798,14 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_match_jobs_number_of_resul:
       children:
         - field_en_match_jobs_number_of_re
         - field_ms_match_jobs_number_of_re
-      label: 'Match Jobs <Number of results> All Jobs <Number of results>'
+      label: 'Match Jobs <"Number of results"> All Jobs <"Number of results">- Sai Teja please use the same key in General only, remove here'
       region: content
       parent_name: group_home_screen
-      weight: 113
+      weight: 181
       format_type: fieldset
       format_settings:
         classes: ''
@@ -839,15 +814,14 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_nearby_jobs_number_of_resu:
       children:
         - field_en_nearby_jobs_number_of_r
         - field_ms_nearby_jobs_number_of_r
-      label: 'Nearby Jobs <Number of results>'
+      label: 'Nearby Jobs <"Number of results"> - Horizontal Listing Header & Vertical Listing Title'
       region: content
       parent_name: group_home_screen
-      weight: 114
+      weight: 168
       format_type: fieldset
       format_settings:
         classes: ''
@@ -856,15 +830,14 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_location_access_required:
       children:
         - field_en_location_access_require
         - field_ms_location_access_require
-      label: 'Location Access Required'
+      label: 'Location Access Required - Title'
       region: content
       parent_name: group_home_screen
-      weight: 115
+      weight: 169
       format_type: fieldset
       format_settings:
         classes: ''
@@ -873,15 +846,14 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_we_need_your_location_to_s:
       children:
         - field_en_we_need_your_location_t
         - field_ms_we_need_your_location_t
-      label: 'We need your location to show nearby jobs. Please enable location services in your phone settings to continue.'
+      label: 'We need your location to show nearby jobs. Please enable location services in your phone settings to continue.  - Action Button'
       region: content
       parent_name: group_home_screen
-      weight: 116
+      weight: 170
       format_type: fieldset
       format_settings:
         classes: ''
@@ -890,15 +862,14 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_enable_locations:
       children:
         - field_en_enable_locations
         - field_ms_enable_locations
-      label: 'Enable Locations'
+      label: 'Enable Locations - Action Button'
       region: content
       parent_name: group_home_screen
-      weight: 117
+      weight: 171
       format_type: fieldset
       format_settings:
         classes: ''
@@ -907,15 +878,14 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_home:
       children:
         - field_en_home
         - field_ms_home
-      label: Home
+      label: 'Home - Bottom Navigation Bar'
       region: content
       parent_name: group_home_screen
-      weight: 118
+      weight: 172
       format_type: fieldset
       format_settings:
         classes: ''
@@ -924,15 +894,14 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_my_jobs:
       children:
         - field_en_my_jobs
         - field_ms_my_jobs
-      label: 'My Jobs'
+      label: 'My Jobs - Bottom Navigation Bar'
       region: content
       parent_name: group_home_screen
-      weight: 119
+      weight: 173
       format_type: fieldset
       format_settings:
         classes: ''
@@ -941,15 +910,14 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_profile:
       children:
         - field_en_profile
         - field_ms_profile
-      label: Profile
+      label: 'Profile - Bottom Navigation Bar'
       region: content
       parent_name: group_home_screen
-      weight: 120
+      weight: 174
       format_type: fieldset
       format_settings:
         classes: ''
@@ -958,15 +926,14 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_more:
       children:
         - field_en_more
         - field_ms_more
-      label: More
+      label: 'More - Bottom Navigation Bar'
       region: content
       parent_name: group_home_screen
-      weight: 121
+      weight: 175
       format_type: fieldset
       format_settings:
         classes: ''
@@ -975,17 +942,23 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_home_screen:
       children:
+        - group_biometric_authentication
+        - group_you_can_use_your_biometric
+        - group_yes
+        - group_skip_for_now
+        - group_hello
+        - group_let_s_explore
+        - group_your_job_opportunities
         - group_start_your_job_search
         - group_new_highlighted_post_avail
         - group_view_post
         - group_highlighted_post
         - group_job_interview_invitation
+        - group_text_job_applied
         - group_job_offers
         - group_not_shortlisted
-        - group_match_jobs_number_of_resul
         - group_nearby_jobs_number_of_resu
         - group_location_access_required
         - group_we_need_your_location_to_s
@@ -994,30 +967,25 @@ third_party_settings:
         - group_my_jobs
         - group_profile
         - group_more
-        - group_kindly_update_your_employm
-        - group_text_are_you_looking_for_a
+        - group_biometric_authentication_i
+        - group_view_profile
+        - group_activities
+        - group_settings
+        - group_logout_button
+        - group_match_jobs_number_of_resul
         - group_text_yes
         - group_text_no
         - group_text_confirm
         - group_today
         - group_days_ago
-        - group_biometric_authentication_i
         - group_biometric_setup_required
-        - group_biometric_authentication
-        - group_view_profile
-        - group_activities
-        - group_text_job_applied
-        - group_you_can_use_your_biometric
-        - group_yes
-        - group_skip_for_now
-        - group_settings
         - group_employment_status_input_la
-        - group_logout_button
+        - group_kindly_update_your_employm
         - group_employment_status_home_inp
-        - group_yes_radio_button
-        - group_information_text_malay_if
-        - group_cancel
         - group_select_one_employment_stat
+        - group_information_text_malay_if
+        - group_yes_radio_button
+        - group_cancel
         - group_select_one
       label: 'Home Screen'
       region: content
@@ -1036,10 +1004,10 @@ third_party_settings:
       children:
         - field_en_kindly_update_your_empl
         - field_ms_kindly_update_your_empl
-      label: 'Kindly update your employment status. Your employment status will help you to get job opportunities that matches your profile.'
+      label: 'Kindly update your employment status. Your employment status will help you to get job opportunities that ... - Popup Text'
       region: content
       parent_name: group_home_screen
-      weight: 122
+      weight: 189
       format_type: fieldset
       format_settings:
         classes: ''
@@ -1048,15 +1016,14 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_text_are_you_looking_for_a:
       children:
         - field_are_you_looking_for_a_new
         - field_malay_are_you_looking_for
-      label: 'Are you looking for a new job?*'
+      label: 'Are you looking for a new job?* - Input Label'
       region: content
-      parent_name: group_home_screen
-      weight: 123
+      parent_name: group_onboarding_screen
+      weight: 98
       format_type: fieldset
       format_settings:
         classes: ''
@@ -1065,15 +1032,14 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_text_yes:
       children:
         - field_english_yes
         - field_malay_yes
-      label: 'Yes'
+      label: 'Yes - Sai Teja pls transfer to General'
       region: content
       parent_name: group_home_screen
-      weight: 124
+      weight: 182
       format_type: fieldset
       format_settings:
         classes: ''
@@ -1082,15 +1048,14 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_text_no:
       children:
         - field_english_no
         - field_malay_no
-      label: 'No'
+      label: 'No - Sai Teja Add in general only no nid in home'
       region: content
       parent_name: group_home_screen
-      weight: 125
+      weight: 183
       format_type: fieldset
       format_settings:
         classes: ''
@@ -1099,15 +1064,14 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_text_confirm:
       children:
         - field_confirm_en
         - field_confirm_ms
-      label: Confirm
+      label: 'Confirm - Sai Teja Add in general only no nid in home'
       region: content
       parent_name: group_home_screen
-      weight: 126
+      weight: 184
       format_type: fieldset
       format_settings:
         classes: ''
@@ -1116,7 +1080,6 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_my_jobs_screen:
       children:
         - group_text_saved_jobs_number_of
@@ -1154,9 +1117,6 @@ third_party_settings:
         - group_can_t_make_it
         - group_about_to_confirm_your_atte
         - group_here_is_your_start_date
-        - group_hello
-        - group_let_s_explore
-        - group_your_job_opportunities
         - group_enter_your_motivation_for
         - group_date
         - group_time
@@ -1806,10 +1766,10 @@ third_party_settings:
       children:
         - field_en_hello
         - field_ms_hello
-      label: Hello
+      label: 'Hello <"Name"> - Header'
       region: content
-      parent_name: group_my_jobs_screen
-      weight: 60
+      parent_name: group_home_screen
+      weight: 157
       format_type: fieldset
       format_settings:
         classes: ''
@@ -1818,15 +1778,14 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_let_s_explore:
       children:
         - field_en_let_s_explore
         - field_ms_let_s_explore
-      label: "Let's explore"
+      label: "Let's explore - Header"
       region: content
-      parent_name: group_my_jobs_screen
-      weight: 61
+      parent_name: group_home_screen
+      weight: 158
       format_type: fieldset
       format_settings:
         classes: ''
@@ -1835,15 +1794,14 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_your_job_opportunities:
       children:
         - field_en_your_job_opportunities
         - field_ms_your_job_opportunities
-      label: 'your job opportunities'
+      label: 'your job opportunities - Header'
       region: content
-      parent_name: group_my_jobs_screen
-      weight: 62
+      parent_name: group_home_screen
+      weight: 159
       format_type: fieldset
       format_settings:
         classes: ''
@@ -1852,7 +1810,6 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
     group_enter_your_motivation_for:
       children:
         - field_en_enter_your_motivation_f
@@ -2159,14 +2116,14 @@ third_party_settings:
         description: ''
         required_fields: true
         open: false
-    group_days_ago:
+    group_today:
       children:
-        - field_english_days_ago
-        - field_malay_days_ago
-      label: 'days ago'
+        - field_english_today
+        - field_malay_today
+      label: 'Today - Sai Teja Add in general only no nid in home'
       region: content
       parent_name: group_home_screen
-      weight: 128
+      weight: 185
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2175,7 +2132,22 @@ third_party_settings:
         label_as_html: false
         description: ''
         required_fields: true
-        open: false
+    group_days_ago:
+      children:
+        - field_english_days_ago
+        - field_malay_days_ago
+      label: 'days ago - Sai Teja Add in general only no nid in home'
+      region: content
+      parent_name: group_home_screen
+      weight: 186
+      format_type: fieldset
+      format_settings:
+        classes: ''
+        show_empty_fields: false
+        id: ''
+        label_as_html: false
+        description: ''
+        required_fields: true
     group_copied:
       children:
         - field_english_copied
@@ -2244,10 +2216,10 @@ third_party_settings:
       children:
         - field_english_biometric_authenti
         - field_malay_biometric_authentica
-      label: 'Biometric authentication is disabled or not set up on your device. Would you like to open settings to enable it?'
+      label: 'Biometric authentication is disabled or not set up on your device. Would...? - Sai teja pls move this to settings '
       region: content
       parent_name: group_home_screen
-      weight: 129
+      weight: 176
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2260,10 +2232,10 @@ third_party_settings:
       children:
         - field_english_biometric_setup_re
         - field_malay_biometric_setup_requ
-      label: 'Biometric Setup Required'
+      label: 'Biometric Setup Required - Sai Teja pls remove and put this into Settings '
       region: content
       parent_name: group_home_screen
-      weight: 130
+      weight: 187
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2276,10 +2248,10 @@ third_party_settings:
       children:
         - field_en_biometric_authenticatio
         - field_biometric_authentication_m
-      label: 'Biometric Authentication'
+      label: 'Biometric Authentication - Biometric Setup Reminder Title'
       region: content
       parent_name: group_home_screen
-      weight: 131
+      weight: 153
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2292,10 +2264,10 @@ third_party_settings:
       children:
         - field_english_view_profile
         - field_malay_view_profile
-      label: 'View Profile'
+      label: 'View Profile - More Slider Menu'
       region: content
       parent_name: group_home_screen
-      weight: 132
+      weight: 177
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2308,10 +2280,10 @@ third_party_settings:
       children:
         - field_english_activities
         - field_malay_activities
-      label: Activities
+      label: 'Activities - More Slider Menu'
       region: content
       parent_name: group_home_screen
-      weight: 133
+      weight: 178
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2324,10 +2296,10 @@ third_party_settings:
       children:
         - field_english_preferred_occupati
         - field_malay_preferred_occupation
-      label: 'Preferred Occupation is required'
+      label: 'Preferred Occupation is required - Sai teja pls remove this from Onboarding screen'
       region: content
       parent_name: group_onboarding_screen
-      weight: 95
+      weight: 102
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2340,10 +2312,10 @@ third_party_settings:
       children:
         - field_english_related_skill_is_r
         - field_malay_related_skill_is_req
-      label: 'Related skill is required'
+      label: 'Related skill is required -  Sai teja pls remove this from Onboarding screen'
       region: content
       parent_name: group_onboarding_screen
-      weight: 96
+      weight: 103
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2372,10 +2344,10 @@ third_party_settings:
       children:
         - field_en_job_applied
         - field_ms_job_applied
-      label: 'Job Applied'
+      label: 'Job Applied - Stats Card'
       region: content
       parent_name: group_home_screen
-      weight: 134
+      weight: 165
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2388,10 +2360,10 @@ third_party_settings:
       children:
         - field_english_logout
         - field_malay_logout
-      label: Logout
+      label: 'Logout - Action Button'
       region: content
       parent_name: group_onboarding_screen
-      weight: 103
+      weight: 78
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2404,10 +2376,10 @@ third_party_settings:
       children:
         - field_english_getting_started
         - field_malay_getting_started
-      label: 'Getting Started'
+      label: 'Getting Started - Header'
       region: content
       parent_name: group_onboarding_screen
-      weight: 99
+      weight: 77
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2420,10 +2392,10 @@ third_party_settings:
       children:
         - field_en_please_key_in_and_selec
         - field_ms_please_key_in_and_selec
-      label: 'Please key in and select the closest occupation that you are looking for.'
+      label: 'Please key in and select the closest occupation that you are looking for. - Information Text'
       region: content
       parent_name: group_onboarding_screen
-      weight: 97
+      weight: 82
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2436,10 +2408,10 @@ third_party_settings:
       children:
         - field_english_save_and_next
         - field_malay_save_and_next
-      label: 'Save and Next'
+      label: 'Save and Next -  Sai teja pls remove this from Onboarding screen'
       region: content
       parent_name: group_onboarding_screen
-      weight: 100
+      weight: 104
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2452,10 +2424,10 @@ third_party_settings:
       children:
         - field_english_select_one_input_p
         - field_malay_select_one_input_pla
-      label: 'Select one (Input Placeholder)'
+      label: 'Select one - Input Placeholder'
       region: content
       parent_name: group_onboarding_screen
-      weight: 101
+      weight: 97
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2468,10 +2440,10 @@ third_party_settings:
       children:
         - field_malay_select_one_employmen
         - field_english_select_one_employm
-      label: 'Select one (Employment Status Placeholder)'
+      label: 'Select one - Popup Input Placeholder'
       region: content
       parent_name: group_home_screen
-      weight: 146
+      weight: 191
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2484,10 +2456,10 @@ third_party_settings:
       children:
         - field_english_if_you_choose_no_y
         - field_malay_if_you_choose_no_you
-      label: 'If you choose ‘No’, your profile will not be matched to active vacancies by the employer.'
+      label: 'If you choose ‘No’, your profile will not be matched to active vacancies by the employer. - Information Text'
       region: content
       parent_name: group_onboarding_screen
-      weight: 102
+      weight: 99
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2500,10 +2472,10 @@ third_party_settings:
       children:
         - field_english_you_have_selected
         - field_malay_you_have_selected_co
-      label: 'You have selected <Counts> skill(s) for this job'
+      label: 'You have selected <Counts> skill(s) for this job - Information Text'
       region: content
       parent_name: group_onboarding_screen
-      weight: 98
+      weight: 87
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2516,10 +2488,10 @@ third_party_settings:
       children:
         - field_english_you_can_use_your_b
         - field_malay_you_can_use_your_bio
-      label: 'You can use your biometric to continue login through this app. Would you like to setup biometric login?'
+      label: 'You can use your biometric to continue login through this app. Would you like to setup ...? - Biometric Setup Reminder Subtext'
       region: content
       parent_name: group_home_screen
-      weight: 135
+      weight: 154
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2532,10 +2504,10 @@ third_party_settings:
       children:
         - field_en_yes
         - field_ms_yes
-      label: 'Yes'
+      label: 'Yes - Biometric Setup Reminder Action Button'
       region: content
       parent_name: group_home_screen
-      weight: 136
+      weight: 155
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2548,10 +2520,10 @@ third_party_settings:
       children:
         - field_english_skip_for_now
         - field_malay_skip_for_now
-      label: 'Skip for Now'
+      label: 'Skip for Now - Biometric Setup Reminder Text Button'
       region: content
       parent_name: group_home_screen
-      weight: 137
+      weight: 156
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2564,10 +2536,10 @@ third_party_settings:
       children:
         - field_english_settings
         - field_malay_settings
-      label: Settings
+      label: 'Settings - More Slider Menu'
       region: content
       parent_name: group_home_screen
-      weight: 138
+      weight: 179
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2580,10 +2552,10 @@ third_party_settings:
       children:
         - field_employment_status_en
         - field_employment_status_ms
-      label: 'Employment Status (Input Label)'
+      label: 'Employment Status - Popup Header'
       region: content
       parent_name: group_home_screen
-      weight: 139
+      weight: 188
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2596,10 +2568,10 @@ third_party_settings:
       children:
         - field_english_logout_button
         - field_malay_logout_button
-      label: 'Logout (Button)'
+      label: 'Logout - More Slider Text Button'
       region: content
       parent_name: group_home_screen
-      weight: 140
+      weight: 180
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2612,10 +2584,10 @@ third_party_settings:
       children:
         - field_en_employment_status_input
         - field_ms_employment_status_input
-      label: 'Employment Status* (Home-Input Label)'
+      label: 'Employment Status* - Popup Input Label'
       region: content
       parent_name: group_home_screen
-      weight: 141
+      weight: 190
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2628,10 +2600,10 @@ third_party_settings:
       children:
         - field_english_yes_radio_button
         - field_malay_yes_radio_button
-      label: 'Yes (Radio Button)'
+      label: 'Yes (Radio Button) - Sai teja pls remove and we use in General only'
       region: content
       parent_name: group_home_screen
-      weight: 142
+      weight: 193
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2644,10 +2616,10 @@ third_party_settings:
       children:
         - field_en_if_you_choose_no_your_p
         - field_ms_if_you_choose_no_your_p
-      label: '(Information Text) Malay If you choose ‘No’, your profile will not be matched to active vacancies by the employer.'
+      label: 'If you choose ‘No’, your profile will not be matched to active vacancies by the employer. - Information Text'
       region: content
       parent_name: group_home_screen
-      weight: 143
+      weight: 192
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2660,10 +2632,10 @@ third_party_settings:
       children:
         - field_english_cancel
         - field_malay_cancel
-      label: Cancel
+      label: 'Cancel - Sai Teja please remove here cause we will be using the same key in General'
       region: content
       parent_name: group_home_screen
-      weight: 145
+      weight: 194
       format_type: fieldset
       format_settings:
         classes: ''
@@ -2676,10 +2648,10 @@ third_party_settings:
       children:
         - field_en_select_one
         - field_select_one_ms
-      label: 'Select one'
+      label: 'Select one - Sai Teja we already have 1 same key for employment status, pls check which one is this for and ping Blake'
       region: content
       parent_name: group_home_screen
-      weight: 147
+      weight: 195
       format_type: fieldset
       format_settings:
         classes: ''
@@ -4035,6 +4007,14 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  field_english_today:
+    type: string_textfield
+    weight: 15
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
   field_english_use_full_words_ins:
     type: string_textfield
     weight: 21
@@ -4526,6 +4506,14 @@ content:
   field_malay_there_is_no_saved_jo:
     type: string_textfield
     weight: 22
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_malay_today:
+    type: string_textfield
+    weight: 16
     region: content
     settings:
       size: 60
