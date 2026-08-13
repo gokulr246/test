@@ -130,7 +130,40 @@ import {
 - **`extn.OIPAClientID`** → owned exclusively by `custom_attributes.tf`'s `azuread_application_optional_claims.oidc_app_claims`. Never re-declare `optional_claims` in the module call — two resources managing the same property will overwrite each other every apply, and the claim silently vanishes from the portal.
 - **Groups claim** (`group_membership_claims = ["ApplicationGroup"]`) → set directly in the `module "oidc_app"` block in `oidc_app.tf`. Top-level `azuread_application` attribute, unrelated to `optional_claims`, required a one-line addition inside the module itself.
 
-## Troubleshooting
+## Git workflow & pipeline (SST-1081)
+
+**Branch:** `feature/sst-1081` → merge target: `dev`
+
+The pipeline runs the full Terraform cycle automatically on merge — no manual `apply` needed once the PR lands in `dev`.
+
+### Before opening the PR
+
+1. `terraform fmt -recursive` — pipeline lint stage will fail the build on unformatted files.
+2. `terraform validate` locally — catches type/syntax errors (map vs list, duplicate variable declarations) before the pipeline does.
+3. `terraform plan` locally against `dev` state (or the pipeline's plan-on-MR stage, if configured) — confirm the diff is **only** what you intended:
+   - New/changed redirect URIs
+   - New/changed user or group assignments
+   - No unexpected changes to `optional_claims` or `group_membership_claims` (see ownership rules above — an accidental diff here usually means a duplicate resource conflict)
+4. Confirm `import.tf` is **not** included in the PR unless there's a genuine pending import — it's a one-time file, not something that should live in `dev`.
+5. Confirm `environment_name` / redirect URI map entries for `dev` are correct — this is what the pipeline will actually apply once merged.
+
+### What the pipeline does on merge to `dev`
+
+| Stage | Action |
+|---|---|
+| `validate` | `terraform init` + `terraform validate` — fails fast on syntax/type errors. |
+| `plan` | `terraform plan -var-file=<dev vars, if any> -out=tfplan` — produces the plan artifact for review/approval (if a manual gate is configured). |
+| `apply` | `terraform apply tfplan` — applies against `dev` state. Runs automatically or on manual approval depending on how the pipeline is gated for this repo. |
+
+> If the pipeline hits an "already exists" or "EntitlementGrant" error mid-run (see Troubleshooting table below), the fix is the same as doing it locally: import the resource into state via a follow-up commit with an `import.tf`, then remove it once applied. Don't re-run `apply` repeatedly hoping it resolves itself — it won't.
+
+### After merge
+
+1. Confirm the pipeline's `apply` stage completed green.
+2. Spot-check in the Entra ID portal: redirect URIs, optional claims (`extn.OIPAClientID`), groups claim, and the new user/group assignments under Enterprise Applications → `Sync-OIDC-App-dev` → Users and groups.
+3. Delete `feature/sst-1081` once merged (standard cleanup — keeps the branch list from accumulating stale feature branches).
+
+
 
 | Error | Fix |
 |---|---|
